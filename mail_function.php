@@ -9,7 +9,7 @@ require_once "vendor/autoload.php";
 function sendOTP($email,$otp) {
 
 	$mail = new PHPMailer(true); 
-	$mail->From = "ashu.apponix@gmail.com";
+	$mail->From = "**********@gmail.com";
 	$mail->FromName = "firebase project";
 	
 	$mail->addAddress("$email", "Recepient Name");
